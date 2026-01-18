@@ -3,45 +3,37 @@ package com.sample.shineeffecttextview
 import android.app.Activity
 import android.graphics.Color
 import android.os.Bundle
-import android.view.View
-import android.view.WindowManager
+import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import com.app.shineeffecttextview.ShineEffectTextView
+import androidx.core.view.WindowCompat
+import com.chandan.shineeffecttextview.ShineEffectTextView
+
+import com.sample.shineeffecttextview.databinding.ActivityOfferBinding
 
 class OfferActivity : AppCompatActivity() {
 
+    private lateinit var binding: ActivityOfferBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
+        enableEdgeToEdge()
         super.onCreate(savedInstanceState)
-        window.decorView.systemUiVisibility =
-            View.SYSTEM_UI_FLAG_LAYOUT_STABLE or View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN or View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
-        setWindowFlag(this, WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS, false)
+        binding = ActivityOfferBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+
+        WindowCompat.setDecorFitsSystemWindows(window, false)
         window.statusBarColor = Color.TRANSPARENT
         window.navigationBarColor = Color.TRANSPARENT
 
-        setContentView(R.layout.activity_offer)
+        binding = ActivityOfferBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
-        val tvOffer1 = findViewById<ShineEffectTextView>(R.id.tvOffer1)
-        val tvOffer2 = findViewById<ShineEffectTextView>(R.id.tvOffer2)
-        val tvOffer3 = findViewById<ShineEffectTextView>(R.id.tvOffer3)
-        val tvOffer5 = findViewById<ShineEffectTextView>(R.id.tvOffer5)
-        val tvOffer6 = findViewById<ShineEffectTextView>(R.id.tvOffer6)
-        val tvOffer7 = findViewById<ShineEffectTextView>(R.id.tvOffer7)
-        tvOffer1.startShimmer()
-        tvOffer2.startShimmer()
-        tvOffer3.startShimmer()
-        tvOffer5.startShimmer()
-        tvOffer6.startShimmer()
-        tvOffer7.startShimmer()
+        binding.tvOffer1.startShimmer()
+        binding.tvOffer2.startShimmer()
+        binding.tvOffer3.startShimmer()
+        binding.tvOffer5.startShimmer()
+        binding.tvOffer6.startShimmer()
+        binding.tvOffer7.startShimmer()
     }
 
-    private fun setWindowFlag(activity: Activity, bits: Int, on: Boolean) {
-        val win = activity.window
-        val winParams = win.attributes
-        if (on) {
-            winParams.flags = winParams.flags or bits
-        } else {
-            winParams.flags = winParams.flags and bits.inv()
-        }
-        win.attributes = winParams
-    }
+
 }

@@ -1,0 +1,114 @@
+[
+    {
+        "merged": "com.sample.shineeffecttextview.app-debug-32:/drawable_background.xml.flat",
+        "source": "com.sample.shineeffecttextview.app-main-34:/drawable/background.xml"
+    },
+    {
+        "merged": "com.sample.shineeffecttextview.app-debug-32:/drawable_ic_right_to_left.xml.flat",
+        "source": "com.sample.shineeffecttextview.app-main-34:/drawable/ic_right_to_left.xml"
+    },
+    {
+        "merged": "com.sample.shineeffecttextview.app-debug-32:/layout_activity_main.xml.flat",
+        "source": "com.sample.shineeffecttextview.app-main-34:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.sample.shineeffecttextview.app-debug-32:/drawable_ic_menu.xml.flat",
+        "source": "com.sample.shineeffecttextview.app-main-34:/drawable/ic_menu.xml"
+    },
+    {
+        "merged": "com.sample.shineeffecttextview.app-debug-32:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.sample.shineeffecttextview.app-main-34:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.sample.shineeffecttextview.app-debug-32:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.sample.shineeffecttextview.app-main-34:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.sample.shineeffecttextview.app-debug-32:/drawable_ic_bottom_to_top.xml.flat",
+        "source": "com.sample.shineeffecttextview.app-main-34:/drawable/ic_bottom_to_top.xml"
+    },
+    {
+        "merged": "com.sample.shineeffecttextview.app-debug-32:/drawable_ic_left_to_right.xml.flat",
+        "source": "com.sample.shineeffecttextview.app-main-34:/drawable/ic_left_to_right.xml"
+    },
+    {
+        "merged": "com.sample.shineeffecttextview.app-debug-32:/xml_backup_rules.xml.flat",
+        "source": "com.sample.shineeffecttextview.app-main-34:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.sample.shineeffecttextview.app-debug-32:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.sample.shineeffecttextview.app-main-34:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.sample.shineeffecttextview.app-debug-32:/font_poppins_bold.ttf.flat",
+        "source": "com.sample.shineeffecttextview.app-main-34:/font/poppins_bold.ttf"
+    },
+    {
+        "merged": "com.sample.shineeffecttextview.app-debug-32:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.sample.shineeffecttextview.app-main-34:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.sample.shineeffecttextview.app-debug-32:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.sample.shineeffecttextview.app-main-34:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.sample.shineeffecttextview.app-debug-32:/layout_activity_offer.xml.flat",
+        "source": "com.sample.shineeffecttextview.app-main-34:/layout/activity_offer.xml"
+    },
+    {
+        "merged": "com.sample.shineeffecttextview.app-debug-32:/drawable_ic_top_to_bottom.xml.flat",
+        "source": "com.sample.shineeffecttextview.app-main-34:/drawable/ic_top_to_bottom.xml"
+    },
+    {
+        "merged": "com.sample.shineeffecttextview.app-debug-32:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.sample.shineeffecttextview.app-main-34:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.sample.shineeffecttextview.app-debug-32:/xml_data_extraction_rules.xml.flat",
+        "source": "com.sample.shineeffecttextview.app-main-34:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.sample.shineeffecttextview.app-debug-32:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.sample.shineeffecttextview.app-main-34:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.sample.shineeffecttextview.app-debug-32:/drawable_shape_menu_button_bg.xml.flat",
+        "source": "com.sample.shineeffecttextview.app-main-34:/drawable/shape_menu_button_bg.xml"
+    },
+    {
+        "merged": "com.sample.shineeffecttextview.app-debug-32:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.sample.shineeffecttextview.app-main-34:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.sample.shineeffecttextview.app-debug-32:/font_poppins_regular.ttf.flat",
+        "source": "com.sample.shineeffecttextview.app-main-34:/font/poppins_regular.ttf"
+    },
+    {
+        "merged": "com.sample.shineeffecttextview.app-debug-32:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.sample.shineeffecttextview.app-main-34:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.sample.shineeffecttextview.app-debug-32:/layout_custom_tool_bar.xml.flat",
+        "source": "com.sample.shineeffecttextview.app-main-34:/layout/custom_tool_bar.xml"
+    },
+    {
+        "merged": "com.sample.shineeffecttextview.app-debug-32:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.sample.shineeffecttextview.app-main-34:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.sample.shineeffecttextview.app-debug-32:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.sample.shineeffecttextview.app-main-34:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.sample.shineeffecttextview.app-debug-32:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.sample.shineeffecttextview.app-pngs-28:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.sample.shineeffecttextview.app-debug-32:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.sample.shineeffecttextview.app-main-34:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.sample.shineeffecttextview.app-debug-32:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.sample.shineeffecttextview.app-main-34:/mipmap-anydpi-v26/ic_launcher.xml"
+    }
+]
