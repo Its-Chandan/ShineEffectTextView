@@ -71,8 +71,8 @@ class ShineEffectTextView : AppCompatTextView {
             context?.obtainStyledAttributes(attrs, R.styleable.ShineEffectTextView, 0, 0)
         try {
             shimmerBuilder =
-                if (typedArray?.hasValue(R.styleable.ShineEffectTextView_shimmer_colored) == true && typedArray.getBoolean(
-                        R.styleable.ShineEffectTextView_shimmer_colored,
+                if (typedArray?.hasValue(R.styleable.ShineEffectTextView_shine_colored) == true && typedArray.getBoolean(
+                        R.styleable.ShineEffectTextView_shine_colored,
                         false
                     )
                 ) Shimmer.ColorHighlightBuilder() else Shimmer.AlphaHighlightBuilder()

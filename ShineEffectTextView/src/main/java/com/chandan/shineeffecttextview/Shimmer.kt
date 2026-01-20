@@ -163,44 +163,44 @@ class Shimmer {
         }
 
         open fun consumeAttributes(typedArray: TypedArray): T {
-            if (typedArray.hasValue(R.styleable.ShineEffectTextView_shimmer_clip_to_children)) {
-                setClipToChildren(typedArray.getBoolean(R.styleable.ShineEffectTextView_shimmer_clip_to_children,
+            if (typedArray.hasValue(R.styleable.ShineEffectTextView_shine_clip_to_children)) {
+                setClipToChildren(typedArray.getBoolean(R.styleable.ShineEffectTextView_shine_clip_to_children,
                     shimmer.clipToChildren))
             }
-            if (typedArray.hasValue(R.styleable.ShineEffectTextView_shimmer_auto_start)) {
-                setAutoStart(typedArray.getBoolean(R.styleable.ShineEffectTextView_shimmer_auto_start,
+            if (typedArray.hasValue(R.styleable.ShineEffectTextView_shine_auto_start)) {
+                setAutoStart(typedArray.getBoolean(R.styleable.ShineEffectTextView_shine_auto_start,
                     shimmer.autoStart))
             }
-            if (typedArray.hasValue(R.styleable.ShineEffectTextView_shimmer_base_alpha)) {
-                setBaseAlpha(typedArray.getFloat(R.styleable.ShineEffectTextView_shimmer_base_alpha,
+            if (typedArray.hasValue(R.styleable.ShineEffectTextView_shine_base_alpha)) {
+                setBaseAlpha(typedArray.getFloat(R.styleable.ShineEffectTextView_shine_base_alpha,
                     0.3F))
             }
-            if (typedArray.hasValue(R.styleable.ShineEffectTextView_shimmer_highlight_alpha)) {
-                setHighlightAlpha(typedArray.getFloat(R.styleable.ShineEffectTextView_shimmer_highlight_alpha,
+            if (typedArray.hasValue(R.styleable.ShineEffectTextView_shine_highlight_alpha)) {
+                setHighlightAlpha(typedArray.getFloat(R.styleable.ShineEffectTextView_shine_highlight_alpha,
                     1F))
             }
-            if (typedArray.hasValue(R.styleable.ShineEffectTextView_shimmer_duration)) {
-                setDuration(typedArray.getInt(R.styleable.ShineEffectTextView_shimmer_duration,
+            if (typedArray.hasValue(R.styleable.ShineEffectTextView_shine_duration)) {
+                setDuration(typedArray.getInt(R.styleable.ShineEffectTextView_shine_duration,
                     shimmer.animationDuration.toInt()).toLong())
             }
-            if (typedArray.hasValue(R.styleable.ShineEffectTextView_shimmer_repeat_count)) {
-                setRepeatCount(typedArray.getInt(R.styleable.ShineEffectTextView_shimmer_repeat_count,
+            if (typedArray.hasValue(R.styleable.ShineEffectTextView_shine_repeat_count)) {
+                setRepeatCount(typedArray.getInt(R.styleable.ShineEffectTextView_shine_repeat_count,
                     shimmer.repeatCount))
             }
-            if (typedArray.hasValue(R.styleable.ShineEffectTextView_shimmer_repeat_delay)) {
-                setRepeatDelay(typedArray.getInt(R.styleable.ShineEffectTextView_shimmer_repeat_delay,
+            if (typedArray.hasValue(R.styleable.ShineEffectTextView_shine_repeat_delay)) {
+                setRepeatDelay(typedArray.getInt(R.styleable.ShineEffectTextView_shine_repeat_delay,
                     shimmer.repeatDelay.toInt()).toLong())
             }
-            if (typedArray.hasValue(R.styleable.ShineEffectTextView_shimmer_repeat_mode)) {
-                setRepeatMode(typedArray.getInt(R.styleable.ShineEffectTextView_shimmer_repeat_mode,
+            if (typedArray.hasValue(R.styleable.ShineEffectTextView_shine_repeat_mode)) {
+                setRepeatMode(typedArray.getInt(R.styleable.ShineEffectTextView_shine_repeat_mode,
                     shimmer.repeatMode))
             }
-            if (typedArray.hasValue(R.styleable.ShineEffectTextView_shimmer_start_delay)) {
-                setStartDelay(typedArray.getInt(R.styleable.ShineEffectTextView_shimmer_start_delay,
+            if (typedArray.hasValue(R.styleable.ShineEffectTextView_shine_start_delay)) {
+                setStartDelay(typedArray.getInt(R.styleable.ShineEffectTextView_shine_start_delay,
                     shimmer.startDelay.toInt()).toLong())
             }
-            if (typedArray.hasValue(R.styleable.ShineEffectTextView_shimmer_direction)) {
-                when (typedArray.getInt(R.styleable.ShineEffectTextView_shimmer_direction,
+            if (typedArray.hasValue(R.styleable.ShineEffectTextView_shine_direction)) {
+                when (typedArray.getInt(R.styleable.ShineEffectTextView_shine_direction,
                     shimmer.direction)) {
                     Direction.LEFT_TO_RIGHT -> {
                         setDirection(Direction.LEFT_TO_RIGHT)
@@ -216,8 +216,8 @@ class Shimmer {
                     }
                 }
             }
-            if (typedArray.hasValue(R.styleable.ShineEffectTextView_shimmer_shape)) {
-                when (typedArray.getInt(R.styleable.ShineEffectTextView_shimmer_shape, shimmer.shape)) {
+            if (typedArray.hasValue(R.styleable.ShineEffectTextView_shine_shape)) {
+                when (typedArray.getInt(R.styleable.ShineEffectTextView_shine_shape, shimmer.shape)) {
                     Shape.LINEAR -> {
                         setShape(Shape.LINEAR)
                     }
@@ -226,37 +226,37 @@ class Shimmer {
                     }
                 }
             }
-            if (typedArray.hasValue(R.styleable.ShineEffectTextView_shimmer_dropoff)) {
-                setDropOff(typedArray.getFloat(R.styleable.ShineEffectTextView_shimmer_dropoff,
+            if (typedArray.hasValue(R.styleable.ShineEffectTextView_shine_dropoff)) {
+                setDropOff(typedArray.getFloat(R.styleable.ShineEffectTextView_shine_dropoff,
                     shimmer.dropOff))
             }
-            if (typedArray.hasValue(R.styleable.ShineEffectTextView_shimmer_fixed_width)) {
-                setFixedWidth(typedArray.getDimensionPixelSize(R.styleable.ShineEffectTextView_shimmer_fixed_width,
+            if (typedArray.hasValue(R.styleable.ShineEffectTextView_shine_fixed_width)) {
+                setFixedWidth(typedArray.getDimensionPixelSize(R.styleable.ShineEffectTextView_shine_fixed_width,
                     shimmer.fixedWidth))
             }
-            if (typedArray.hasValue(R.styleable.ShineEffectTextView_shimmer_fixed_height)) {
-                setFixedHeight(typedArray.getDimensionPixelSize(R.styleable.ShineEffectTextView_shimmer_fixed_height,
+            if (typedArray.hasValue(R.styleable.ShineEffectTextView_shine_fixed_height)) {
+                setFixedHeight(typedArray.getDimensionPixelSize(R.styleable.ShineEffectTextView_shine_fixed_height,
                     shimmer.fixedHeight))
             }
-            if (typedArray.hasValue(R.styleable.ShineEffectTextView_shimmer_intensity)) {
-                setIntensity(typedArray.getFloat(R.styleable.ShineEffectTextView_shimmer_intensity,
+            if (typedArray.hasValue(R.styleable.ShineEffectTextView_shine_intensity)) {
+                setIntensity(typedArray.getFloat(R.styleable.ShineEffectTextView_shine_intensity,
                     shimmer.intensity))
             }
-            if (typedArray.hasValue(R.styleable.ShineEffectTextView_shimmer_width_ratio)) {
-                setWidthRatio(typedArray.getFloat(R.styleable.ShineEffectTextView_shimmer_width_ratio,
+            if (typedArray.hasValue(R.styleable.ShineEffectTextView_shine_width_ratio)) {
+                setWidthRatio(typedArray.getFloat(R.styleable.ShineEffectTextView_shine_width_ratio,
                     shimmer.widthRatio))
             }
-            if (typedArray.hasValue(R.styleable.ShineEffectTextView_shimmer_height_ratio)) {
-                setHeightRatio(typedArray.getFloat(R.styleable.ShineEffectTextView_shimmer_height_ratio,
+            if (typedArray.hasValue(R.styleable.ShineEffectTextView_shine_height_ratio)) {
+                setHeightRatio(typedArray.getFloat(R.styleable.ShineEffectTextView_shine_height_ratio,
                     shimmer.heightRatio))
             }
-            if (typedArray.hasValue(R.styleable.ShineEffectTextView_shimmer_tilt)) {
-                setTilt(typedArray.getFloat(R.styleable.ShineEffectTextView_shimmer_tilt, shimmer.tilt))
+            if (typedArray.hasValue(R.styleable.ShineEffectTextView_shine_tilt)) {
+                setTilt(typedArray.getFloat(R.styleable.ShineEffectTextView_shine_tilt, shimmer.tilt))
             }
 
-            if (typedArray.hasValue(R.styleable.ShineEffectTextView_shimmer_colored)) {
+            if (typedArray.hasValue(R.styleable.ShineEffectTextView_shine_colored)) {
                 setColored(
-                    typedArray.getBoolean(R.styleable.ShineEffectTextView_shimmer_colored, shimmer.isColored)
+                    typedArray.getBoolean(R.styleable.ShineEffectTextView_shine_colored, shimmer.isColored)
                 )
             }
 
@@ -445,15 +445,15 @@ class Shimmer {
 
         override fun consumeAttributes(typedArray: TypedArray): ColorHighlightBuilder {
             super.consumeAttributes(typedArray)
-            if (typedArray.hasValue(R.styleable.ShineEffectTextView_shimmer_base_color)) {
+            if (typedArray.hasValue(R.styleable.ShineEffectTextView_shine_base_color)) {
                 setBaseColor(
-                    typedArray.getColor(R.styleable.ShineEffectTextView_shimmer_base_color,
+                    typedArray.getColor(R.styleable.ShineEffectTextView_shine_base_color,
                         shimmer.baseColor))
             }
-            if (typedArray.hasValue(R.styleable.ShineEffectTextView_shimmer_highlight_color)) {
+            if (typedArray.hasValue(R.styleable.ShineEffectTextView_shine_highlight_color)) {
                 setHighlightColor(
                     typedArray.getColor(
-                        R.styleable.ShineEffectTextView_shimmer_highlight_color,
+                        R.styleable.ShineEffectTextView_shine_highlight_color,
                         shimmer.highLightColor))
             }
             return getThis()
