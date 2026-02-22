@@ -20,7 +20,7 @@ Add the dependency:
 
 ```gradle
 dependencies {
-    implementation 'com.github.Its-Chandan:ShineEffectTextView:1.0.0'
+    implementation 'com.github.Its-Chandan:ShineEffectTextView:1.0.1'
 }
 ```
 
